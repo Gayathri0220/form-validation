@@ -11,23 +11,23 @@
         <form id="myForm">
             <h1>Form Validation</h1>
 
-            <label for="name">Name:</label>
+            <label for="name">Name:<span class="required">*</span></label>
             <input type="text" id="name" name="name" required minlength="2" maxlength="30">
             
-            <label for="password">Password:</label>
+            <label for="password">Password:<span class="required">*</span></label>
             <input type="password" id="password" name="password" required minlength="8">
              
-            <label for="password">Email:</label>
+            <label for="password">Email:<span class="required">*</span></label>
             <input type="email" id="email" name="email" required minlength="8">
 
 
-            <label for="url">URL:</label>
+            <label for="url">URL:<span class="required">*</span></label>
             <input type="url" id="url" name="url" required>
 
-            <label for="date">Date:</label>
+            <label for="date">Date:<span class="required">*</span></label>
             <input type="date" id="date" name="date" required>
 
-            <label for="week">Week:</label>
+            <label for="week">Week:<span class="required">*</span></label>
             <input type="week" id="week" name="week" required>
 
             <label for="time">Time:</label>
@@ -41,7 +41,7 @@
             <input type="number" id="number" name="number" min="1" max="100" required>
 
             <fieldset>
-                <legend>Gender:</legend>
+                <legend>Gender:<span class="required">*</span></legend>
                 <label>
                     <input type="radio" name="radio" value="option1" required> Male
                 </label>
@@ -54,7 +54,7 @@
             </fieldset>
 
             <fieldset>
-                <legend>Language:</legend>
+                <legend>Language:<span class="required">*</span></legend>
                 <label>
                     <input type="checkbox" name="checkbox1" required> Tamil
                 </label>
@@ -69,9 +69,9 @@
             <label for="color">Color:</label>
             <input style="height: 40px;" type="color" id="color" name="color" required>
             
-            <label for="month">Month:</label>
+            <label for="month">Month:<span class="required">*</span></label>
             <input type="month" id="month" name="month" required>
-            <label for="file">Upload:</label>
+            <label for="file">Upload:<span class="required">*</span></label>
             <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png">
 
             <label for="feedback">Feedback:</label>
